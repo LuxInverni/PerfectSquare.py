@@ -3,7 +3,7 @@ def perfectsquare(list):
     for i in list1:
         sqroot = i**.5
         if sqroot % 1 == 0:
-            print(f"{i} from List1 is a Perfect square as: {sqroot} * {sqroot} = {i}")
+            print(f"{i} from List is a Perfect square as: {sqroot} * {sqroot} = {i}")
             duplicate.append(i)
     if len(duplicate) == 0:
         print("No Perfect Squares In The List")
